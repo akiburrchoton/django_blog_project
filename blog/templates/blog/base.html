@@ -19,6 +19,7 @@
     {% endif %}
 </head>
 <body>
+    <!-- Navbar Menu Starts Here -->
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
@@ -40,12 +41,24 @@
         </div>
       </nav>
     </header>
-
+    <!-- Navbar Menu Ends Here -->
     
+    <!-- Main Content Starts Here -->
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8">
+          
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{message}}
+              </div>
+            {% endfor %}
+          {% endif %}  
+
           {% block content %}{% endblock %}
+
+
         </div>
         <div class="col-md-4">
           <div class="content-section">
@@ -62,6 +75,8 @@
         </div>
       </div>
     </main>
+    <!-- Main Content Ends Here -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
