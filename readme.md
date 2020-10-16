@@ -20,7 +20,7 @@
     <li>Add Signal so that for new users a profile is created automatically</li>
 </ul>
 
-<h1>B R E A K ...</h1> 
+<h3>B R E A K ...</h3> 
 
 <h1>Date : 12.10.2020</h1>
 <ul>
