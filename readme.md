@@ -19,9 +19,9 @@
     <li>Add Profile Picture(Media root in settings file etc)</li>
     <li>Add Signal so that for new users a profile is created automatically</li>
 </ul>
-
+<br>
 <h3>B R E A K ...</h3> 
-
+<br>
 <h1>Date : 12.10.2020</h1>
 <ul>
     <li>User Profile Updating </li>
