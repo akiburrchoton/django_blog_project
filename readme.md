@@ -46,3 +46,8 @@
     <li>How it works</li>
     <li>All Posts by individual Users with pagination</li>
 </ul>
+<h1>Date : 18.10.2020</h1>
+<ul>
+    <li>Reset Password using Email</li>
+    <li>Gmail SMTP</li>
+</ul>
