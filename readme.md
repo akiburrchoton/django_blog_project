@@ -1,6 +1,6 @@
 <h1>Basic Blog Website using Django</h1>
 
-<a href="www.google.com">Have a look!</a>
+<h5><a href="https://youtu.be/4BX3RM37P7w">Have a look!</a></h5>
 
 <h3>Date : 23.07.2020</h3>
 <ul>
